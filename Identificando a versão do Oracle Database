@@ -1,0 +1,25 @@
+select * from v$version;
+
+              ## RETORNO ##
+
+BANNER                                                                               CON_ID
+-------------------------------------------------------------------------------- ----------
+Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production              0
+PL/SQL Release 12.1.0.2.0 - Production                                                    0
+CORE    12.1.0.2.0      Production                                                        0
+TNS for Linux: Version 12.1.0.2.0 - Production                                            0
+NLSRTL Version 12.1.0.2.0 - Production        
+
+
+
+select * from product_component_version;
+
+              ## RETORNO ##
+
+PRODUCT                                                                          VERSION                                                                          STATUS
+-------------------------------------------------------------------------------- -------------------------------------------------------------------------------- --------------------------------------------------------------------------------
+NLSRTL                                                                           12.1.0.2.0                                                                       Production
+Oracle Database 12c Enterprise Edition                                           12.1.0.2.0                                                                       64bit Production
+PL/SQL                                                                           12.1.0.2.0                                                                       Production
+TNS for Linux:                                                                   12.1.0.2.0                                                                       Production
+
