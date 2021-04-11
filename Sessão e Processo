@@ -18,6 +18,6 @@ WHERE  s.paddr   = p.addr
 AND    s.inst_id = p.inst_id
 ORDER BY s.username, s.osuser;
 
--- Para matar  a sessão 
+-- Para matar  a sessão. 
 
 alter system kill session 'SID, SERIAL';
